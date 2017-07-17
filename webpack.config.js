@@ -19,7 +19,7 @@ module.exports = [{
     entry: "./src/satellite.js",
     target: "webworker",
     output: {
-      libraryTarget: "commonjs2",
+      libraryTarget: "umd",
       path: __dirname + "/dist",
       filename: 'webworker-satellite.js'
     },
